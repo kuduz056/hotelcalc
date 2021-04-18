@@ -1,0 +1,95 @@
+
+
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="hotelcss.css">
+  <script src="https://kit.fontawesome.com/c320693c1e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main id="wholebody">
+    <header id="logo">
+      <i class="fas fa-archway"></i>
+
+    </header>
+    <nav> 
+      <ul class="nav-flex-row" style="justify-content: center;padding-left: 10px;"> 
+          <li class="nav-item" > 
+              <a href="#about" style="text-decoration: none;">About</a> 
+          </li> 
+          <li class="nav-item" > 
+              <a href="#reservation" style="text-decoration: none;">Reservation</a> 
+          </li> 
+          <li class="nav-item"> 
+              <a href="#menu" style="text-decoration: none;">Menu</a> 
+          </li> 
+          <li class="nav-item"> 
+              <a href="#shop" style="text-decoration: none;">Shop</a> 
+          </li> 
+      </ul> 
+  </nav> 
+  <section class="section-intro"> 
+    <form id=rrooms>
+      <select id="rooms">
+      <option selected value="0">Rooms</option>
+      <option value=7>luxury lounge</option>
+      <option value=6>presidential suites</option>
+      <option value=5>executive suites</option>
+      <option value=4>large suites</option>
+      <option value=3>business suites</option>
+      <option value=2>Double bedded suites</option>
+      <option value=2>single room</option>
+      </select>
+      
+    <br>
+     
+      <select name="foods" id="foods">
+      <option selected value="0">Foods</option>
+      <option value=7>full-course meal</option>
+      <option value=6>desert</option>
+      <option value=5>protein</option>
+      <option value=4>Carbs</option>
+      <option value=3>Alcoholic wines</option>
+      <option value=2>juice and beverages</option>
+      <option value=1>table water</option>
+      </select>
+      
+    <br>
+    <div id=formId>
+      Spa<input value=12 name="other_services" id="spa" type="checkbox" />
+  
+      Sauna:<input value=112 name="other_services" id="sauna" type="checkbox" />
+      Make-over:<input value=3 name="other_services" id="make-over" type="checkbox" />
+      Haircuts:<input value=4 name="other_services" id="haircuts" type="checkbox" />
+    </div>
+       
+     
+    <br>
+    <div class="total">
+      <button  type="button" id="checkOut_" onclick="Calc_cost()">Total</button>
+    </div>
+    <div class="totalout">
+      <p id="totalcost"></p>   
+       
+      
+    </div>  
+    </form>
+    
+    
+    
+    
+
+  </section>
+  </main>
+  
+  
+  <script src="hotel.js"></script>
+  
+</body>
+<footer>
+
+</footer>
+<html>

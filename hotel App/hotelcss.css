@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    justify-content: center;
+    align-content: center;
+}
+ul.nav-flex-row{
+    display:flex;
+    background-color: aquamarine;
+    text-decoration: none;
+    justify-content: center;
+    list-style-type: none;
+    width:50%;
+    margin-left: 23%;
+    padding-right: 30px;
+   
+}
+li.nav-item{
+margin:10px;
+justify-content: center;
+color: black;
+}
+li.nav-item a {
+    color: black;
+    
+}
+ul.nav-flex-row li.nav-item{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+section.section-intro{
+    justify-content: center;
+    display: flex;
+    margin:40px;
+    padding:40px;
+    background-color: mistyrose;
+    
+}
+form#rrooms{
+    margin:40px;
+    padding:40px;
+    background-color: aquamarine;
+   display: grid;
+   width: 300px;
+}
+div#formId{
+    display:flex;
+    justify-content: space-around;
+    
+}
+div.total{
+    justify-content: center;
+    display: grid;
+}
+div.totalout{
+    display: grid;
+    margin: 20px;
+    
+}
+header#logo i.fas{
+    color: black;
+    font-size: 40px;
+    display: grid;
+    margin: 20px;
+}
+div.totalout{
+    background-color: oldlace;
+    width: 80%;
+    height: 20px;
+
+}
